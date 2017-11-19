@@ -9,15 +9,15 @@ ABSTRACT
 
 We examine news coverage regarding the recent re-introduction of B. bison into western Canada to compare apparent public valuation of both “biodiversity” and “aesthetics” with the Junge’s enhanced field margin studies.*  
 
-
-# read data with R:
-
-> library(tidyverse)
-> library(RCurl)
-> source.url <- c("https://raw.githubusercontent.com/cordphelps/bison/master/bison.csv")
-> bison.df <- read.csv(text=getURLContent(source.url), header=TRUE, row.names=NULL)
-
 #
+* read data with R:
+
+library(tidyverse)
+library(RCurl)
+source.url <- c("https://raw.githubusercontent.com/cordphelps/bison/master/bison.csv")
+bison.df <- read.csv(text=getURLContent(source.url), header=TRUE, row.names=NULL)
+
+*
 
 
 ### License
