@@ -5,19 +5,20 @@
 
 ABSTRACT 
 
-*Are biodiversity and aesthetics valued separately by the public? Does public appreciation for biodiversity and aesthetics manifest itself outside of Switzerland? 
+Are biodiversity and aesthetics valued separately by the public? Does public appreciation for biodiversity and aesthetics manifest itself outside of Switzerland? 
 
-We examine news coverage regarding the recent re-introduction of B. bison into western Canada to compare apparent public valuation of both “biodiversity” and “aesthetics” with the Junge’s enhanced field margin studies.*  
+We examine news coverage regarding the recent re-introduction of B. bison into western Canada to compare apparent public valuation of both “biodiversity” and “aesthetics” with the Junge’s enhanced field margin studies.
 
 #
-* read data with R:
+read data with R:
 
-library(tidyverse)
-library(RCurl)
-source.url <- c("https://raw.githubusercontent.com/cordphelps/bison/master/bison.csv")
-bison.df <- read.csv(text=getURLContent(source.url), header=TRUE, row.names=NULL)
+```R
+	library(tidyverse)
+	library(RCurl)
+	source.url <- c("https://raw.githubusercontent.com/cordphelps/bison/master/bison.csv")
+	bison.df <- read.csv(text=getURLContent(source.url), header=TRUE, row.names=NULL)
+```
 
-*
 
 
 ### License
@@ -27,7 +28,7 @@ Data and Content distributed under the License is distributed on an "AS IS" BASI
 
 
 
-[![screen shot](https://raw.githubusercontent.com/cordphelps/fourAcreVineyard/master/images/IMG_4430.JPG)]()
+[![screen shot](https://raw.githubusercontent.com/cordphelps/bison/master/IMG_4430.JPG)]()
 
 
 
