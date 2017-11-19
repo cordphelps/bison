@@ -13,7 +13,6 @@ We examine news coverage regarding the recent re-introduction of B. bison into w
 read data with R:
 
 ```R
-	library(tidyverse)
 	library(RCurl)
 	source.url <- c("https://raw.githubusercontent.com/cordphelps/bison/master/bison.csv")
 	bison.df <- read.csv(text=getURLContent(source.url), header=TRUE, row.names=NULL)
