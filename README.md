@@ -7,7 +7,7 @@ ABSTRACT
 
 Are biodiversity and aesthetics valued separately by the public? Does public appreciation for biodiversity and aesthetics manifest itself outside of Switzerland? 
 
-We examine news coverage regarding the recent re-introduction of B. bison into western Canada to compare apparent public valuation of both “biodiversity” and “aesthetics” with the Junge’s enhanced field margin studies.
+We examine news coverage regarding the recent re-introduction of *B. bison* into western Canada to compare apparent public valuation of both “biodiversity” and “aesthetics” with the Junge’s enhanced field margin studies.
 
 #
 read data with R:
