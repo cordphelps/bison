@@ -29,7 +29,7 @@ Data and Content distributed under the License is distributed on an "AS IS" BASI
 
 [![screen shot](https://raw.githubusercontent.com/cordphelps/bison/master/IMG_4430.JPG)]()
 
-
+photo copyright: Cord Phelps, mammals at the Lausanne Museum of Natural History, November 2017
 
 ### Author
 Cord Phelps // [github](http://cordphelps.github.io)
